@@ -11,12 +11,11 @@
       
     <link href="https://fonts.googleapis.com/css?family=Knewave|Petit+Formal+Script" rel="stylesheet">
       
-    <script   src="https://code.jquery.com/jquery-2.2.4.js"   integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="   crossorigin="anonymous"></script>
-		<script type="text/javascript" src="js/bootstrap.js"></script>
+    
       
       <!--- My style sheet here! --> 
       <link rel="stylesheet" type="text/css" href="css/rpgstyle.css">
-
+      
    
       
 
@@ -40,10 +39,14 @@
         <div class="row text-center">
             <div class="col-sm-5">
         
-                <button id="north_btn" class="btn">North</button>
-                <button id="west_btn" class="btn">West</button>
-                <button id="east_btn" class="btn">East</button>
-                <button id="south_btn" class="btn">South</button>
+                <button id="north_btn" class="btn" onClick="reply_click(this.id)">North</button>
+                
+                <button id="west_btn" class="btn" onClick="reply_click(this.id)">West</button>
+                
+                <button id="east_btn" class="btn" onClick="reply_click(this.id)">East</button>
+                
+                <button id="south_btn" class="btn" onClick="reply_click(this.id)">South</button>
+                
             </div>
             <div class="col-sm-5">
         
@@ -56,13 +59,17 @@
         </div>
         
     </div>
-       
-        
-    
+                
     </div>
         
 </div>
     
+<script src="js/rooms.js"></script>
+<script src="js/functions.js"></script>     
+<script src="js/mainloop.js"></script> 
+    
+<script   src="https://code.jquery.com/jquery-2.2.4.js"   integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="   crossorigin="anonymous"></script>
+      
 </body>
 
 </html>
