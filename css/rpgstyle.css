@@ -3,12 +3,40 @@
 
 body {
     font-family: 'Knewave', cursive;
+    background-color: antiquewhite;
     }
     
 button {
-    height: 5.125rem;
-    width: 8.25rem;
+    height: 4.125rem;
+    width: 7.25rem;
     border-radius: 30%;
+    
+}
+
+.btn {
+  background: #5e788a;
+  background-image: -webkit-linear-gradient(top, #5e788a, #2980b9);
+  background-image: -moz-linear-gradient(top, #5e788a, #2980b9);
+  background-image: -ms-linear-gradient(top, #5e788a, #2980b9);
+  background-image: -o-linear-gradient(top, #5e788a, #2980b9);
+  background-image: linear-gradient(to bottom, #5e788a, #2980b9);
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+  -webkit-box-shadow: 5px 5px 0px #666666;
+  -moz-box-shadow: 5px 5px 0px #666666;
+  box-shadow: 5px 5px 0px #666666;
+  color: #ffffff;
+  padding: 10px 20px 10px 20px;
+  border: solid #1f628d 3px;
+  text-decoration: none;
+  margin-left: 2%;
+  margin-bottom: 3%;
+}
+
+.btn:hover {
+  background: #a5b7c2;
+  text-decoration: none;
 }
 
 /* ------------------------------- */

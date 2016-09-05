@@ -14,74 +14,10 @@
     <script   src="https://code.jquery.com/jquery-2.2.4.js"   integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="   crossorigin="anonymous"></script>
 		<script type="text/javascript" src="js/bootstrap.js"></script>
       
-<style>
-    
-    p::first-letter {    font: bold italic 5em / .5 'Petit Formal Script';    font-style: italic;    color: black;     float: left;    margin: 0.2em 0.25em .01em 0; }
-    
-    body {
-        font-family: 'Knewave', cursive;
-    }
+      <!--- My style sheet here! --> 
+      <link rel="stylesheet" type="text/css" href="css/rpgstyle.css">
 
-    #playerStats {
-        
-        color: black;
-        border-style: solid;
-        border-width: 2px;
-        border-color: grey;
-         background-image: url("http://www.johnwdriscoll.com/wp_images/paperbg.jpg");
-          background-image: cover;
-          background-image: no-repeat;
-        padding-bottom: 1%;
-        font-size: 1.50rem;
-       
-    }
-    
-    #monsterStats {
-       
-        color: black;
-        border-style: solid;
-        border-width: 2px;
-        border-color: grey;
-         background-image: url("http://www.johnwdriscoll.com/wp_images/paperbg.jpg");
-      background-image: cover;
-      background-image: no-repeat;
-        padding-bottom: 1%;
-        font-size: 1.50rem;
-    }
-    
-    #roomDescription {
-        font-family: 'Petit Formal Script', cursive;
-        background-image: url("http://www.johnwdriscoll.com/wp_images/paperbg.jpg");
-      background-image: cover;
-      background-image: no-repeat;
-        color: black;
-        border-style: solid;
-        border-width: 2px;
-        border-color: black;
-        padding-top: 1%;
-        font-weight: 900;
-        font-size: 1.75rem;
-       
-    }
-    
-    #messages {
-        font-family: 'Petit Formal Script', cursive;
-        background-image: url("http://www.johnwdriscoll.com/wp_images/paperbg.jpg");
-      background-image: cover;
-      background-image: no-repeat;
-        color: black;
-        border-style: solid;
-        border-width: 2px;
-        border-color: black;
-        padding-top: 1%;
-        padding-left: 1%;
-        padding-bottom: 1%;
-        font-weight: 900;
-        font-size: 1.75rem;
-        margin-bottom: 1%;
-    }
-    
-</style>      
+   
       
 
 <body>
@@ -100,20 +36,21 @@
 
     <div id="playerNav">
         
-        <div class="row">
-            <div class="col-sm-4">
         
-                <button id="north_btn">North</button>
-                <button id="west_btn">West</button>
-                <button id="east_btn">East</button>
-                <button id="south_btn">South</button>
+        <div class="row text-center">
+            <div class="col-sm-5">
+        
+                <button id="north_btn" class="btn">North</button>
+                <button id="west_btn" class="btn">West</button>
+                <button id="east_btn" class="btn">East</button>
+                <button id="south_btn" class="btn">South</button>
             </div>
-            <div class="col-sm-4">
+            <div class="col-sm-5">
         
-                <button id="fight_btn">Fight</button>
-                <button id="search_btn">Search</button>
-                <button id="wait_btn">Wait</button>
-                <button id="south_btn">Camp</button>
+                <button id="fight_btn" class="btn">Fight</button>
+                <button id="search_btn" class="btn">Search</button>
+                <button id="wait_btn" class="btn">Wait</button>
+                <button id="south_btn" class="btn">Camp</button>
             </div>
             
         </div>
